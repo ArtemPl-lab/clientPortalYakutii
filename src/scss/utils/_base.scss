@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before,*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+menu{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Century Gothic', sans-serif;
+  overflow-x: hidden;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  display: flex;
+}
+
+
+.container {
+  max-width: 1310px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.page-mt-100 {
+  margin-top: 100px;
+}
+
+
+.btn--accent {
+  font-family: 'Caveat', sans-serif;
+  background: #F19C31;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+.btn--accent:hover {
+  background: #FEBA63;
+}
+
+
+@media screen and (max-width: 1000px){
+  .page-mt-100 {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .page-mt-100 {
+    margin-top: 30px;
+  }
+}
